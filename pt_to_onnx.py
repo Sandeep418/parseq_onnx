@@ -1,19 +1,4 @@
 
-#r"D:\Sandeep\Dataset\sample_test_output\v1/"
-    #r"D:\Sandeep\Dataset\Final_Data_Combined/test/"#r"D:\Sandeep\Dataset\sample_test_output/"
-    #r"C:\Users\Sandeep.Reddy\Downloads\IIIT5K-Word_V3.0\IIIT5K\test/"
-#r"D:\Sandeep\Dataset\Final_Data_Combined/"
-    #r"C:\Users\Sandeep.Reddy\Downloads\image_release_190624\image_release_190624\benchmark_cleansed\IC03\par/"
-    #r"C:\Users\Sandeep.Reddy\Downloads\IIIT5K-Word_V3.0\IIIT5K\test/"
-    #
-
-#image_path=r'C:\Users\Sandeep.Reddy\Downloads\NKP_data\test_images/test2.png'#r'C:\Users\Sandeep.Reddy\Downloads\NKP_data\No_pharma_set_1\93_crop/1_line2.png'
-#img_dir=r'C:\Users\Sandeep.Reddy\Downloads\NKP_data\No_pharma_set_1\line_crops/'
-
-
-checkp=r"C:\Users\Sandeep.Reddy\Downloads\parseq/April_from_sctrach/epoch=18-step=3762960-val_accuracy=94.2249-val_NED=98.0459.ckpt" #epoch=49-step=2029064-val_accuracy=94.1853-val_NED=98.1515.ckpt'
-
-#r"D:\Sandeep\OCR\parseq\outputs\parseq\2024-01-25_18-04-11\checkpoints/last.ckpt"
 import os
 
 import torch
