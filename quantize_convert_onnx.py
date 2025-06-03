@@ -5,8 +5,8 @@ from strhub.models.utils import load_from_checkpoint
 import os
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--source_path", default=r"D:\ACG\parseq\epoch=23-step=5464223-val_accuracy=91.6810-val_NED=97.0141.ckpt", help="Path to the trained model ckpt file.")
-parser.add_argument("--target_path", default="D:/ACG/parseq/", help="Path where to export the trained model.")
+parser.add_argument("--source_path", default="epoch=23-step=5464223-val_accuracy=91.6810-val_NED=97.0141.ckpt", help="Path to the trained model ckpt file.")
+parser.add_argument("--target_path", default="D:/parseq/", help="Path where to export the trained model.")
 parser.add_argument("--quantize", action='store_true', help="Whether to apply dynamic quantization before export.")
 parser.add_argument("--opset_version", type=int, default=17, help="ONNX opset version (default: 11)")
 args = parser.parse_args()
