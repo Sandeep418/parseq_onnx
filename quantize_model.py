@@ -5,8 +5,8 @@ from torch.utils.mobile_optimizer import optimize_for_mobile
 import os
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--source_path", default=r"D:\ACG\parseq\epoch=23-step=5464223-val_accuracy=91.6810-val_NED=97.0141.ckpt", help="Path to the trained model ckpt file.")
-parser.add_argument("--target_path", default="D:/ACG/parseq/", help="Path where to export the trained model.")
+parser.add_argument("--source_path", default=r"D:\parseq\epoch=23-step=5464223-val_accuracy=91.6810-val_NED=97.0141.ckpt", help="Path to the trained model ckpt file.")
+parser.add_argument("--target_path", default="D:/parseq/", help="Path where to export the trained model.")
 parser.add_argument("--optimize_for_mobile", action='store_true', help="Whether to apply optimization for mobile.")
 args = parser.parse_args()
 
